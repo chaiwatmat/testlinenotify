@@ -1,0 +1,7 @@
+machine:
+  php:
+    version: 7.0.4
+
+dependencies:
+  pre:
+    - curl -X POST -H 'Authorization: Bearer oYBIRtrecy6pjmxSRNQebmY9TnMRpKI0YH5knCJ44MY' -F 'message=Hello auto send from circleci' https://notify-api.line.me/api/notify
